@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SVGIcon /> should render without crashing 1`] = `
+<SVGIcon__StyledIcon
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "twitter.svg",
+    }
+  }
+/>
+`;
