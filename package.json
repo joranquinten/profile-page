@@ -12,7 +12,6 @@
     "test": "npx jest",
     "test:coverage": "npx jest --coverage",
     "prebuild": "npm run test && npm run lint",
-    "sitemap": "node buildSitemap.js",
     "postexport": "node post-export.js"
   },
   "repository": {
