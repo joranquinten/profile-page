@@ -1,9 +1,15 @@
 const sorterByProperty = (property, type) => (a, b) => {
   const fallback = type === 'date' ? new Date().toISOString().split('T')[0] : '';
-  if ((a[property] || fallback) < (b[property] || fallback)) {
+
+  const getValue = item => {
+    const value = item[property] || fallback;
+    return !isNaN(parseFloat(value)) && isFinite(value) ? value : value.toLowerCase(); // esline-disable-line no-restricted-globals
+  };
+
+  if (getValue(a) < getValue(b)) {
     return -1;
   }
-  if ((b[property] || fallback) < (a[property] || fallback)) {
+  if (getValue(b) < getValue(a)) {
     return 1;
   }
   return 0;

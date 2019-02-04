@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Projecten /> should render without crashing 1`] = `
+<Projecten__StyledProjecten>
+  <Card
+    key="Project one"
+    title="Project one"
+  >
+    <p
+      key="0"
+    >
+      Project one description
+    </p>
+  </Card>
+  <Card
+    key="Project two"
+    title="Project two"
+  >
+    <p
+      key="0"
+    >
+      Project two description
+    </p>
+  </Card>
+</Projecten__StyledProjecten>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Resume /> should render without crashing 1`] = `
+<Resume__StyledResume>
+  <Tabs
+    defaultActiveKey="1"
+    hideAdd={false}
+    tabPosition="top"
+  >
+    <TabPane
+      key="1"
+      placeholder={null}
+      tab="Werkervaring"
+    >
+      <Werkervaring />
+    </TabPane>
+    <TabPane
+      key="2"
+      placeholder={null}
+      tab="Projecten"
+    >
+      <Projecten />
+    </TabPane>
+    <TabPane
+      key="3"
+      placeholder={null}
+      tab="Kennis"
+    >
+      <Kennis />
+    </TabPane>
+  </Tabs>
+</Resume__StyledResume>
+`;

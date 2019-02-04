@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render without crashing 1`] = `
+<About__StyledAbout>
+  <header>
+    <h1
+      key="title"
+    >
+      aboutTitle
+    </h1>
+    <span
+      className="subtitle"
+      key="subtitle"
+    >
+      aboutSubtitle
+    </span>
+  </header>
+  <ul
+    className="description"
+  >
+    <li
+      key="tagOne"
+    >
+      tagOne
+    </li>
+    <li
+      key="tagTwo"
+    >
+      tagTwo
+    </li>
+  </ul>
+  <div
+    className="bio"
+  >
+    <p
+      key="0"
+    >
+      aboutBio
+    </p>
+  </div>
+  <blockquote>
+    aboutQuote
+  </blockquote>
+  <div
+    className="picture"
+  >
+    <img
+      alt="aboutTitle aboutSubtitle"
+      src="../static/pictures/picture.jpg"
+    />
+  </div>
+</About__StyledAbout>
+`;

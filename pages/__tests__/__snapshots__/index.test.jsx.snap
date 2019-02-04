@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Index /> should render without crashing 1`] = `
+<pages__StyledLayout>
+  <Adapter
+    className="ant-layout-override"
+  >
+    <pages__StyledBackTop>
+      <BackTop
+        visibilityHeight={400}
+      >
+        <Icon
+          theme="twoTone"
+          type="rocket"
+        />
+      </BackTop>
+    </pages__StyledBackTop>
+    <Adapter>
+      <About />
+      <Resume />
+    </Adapter>
+    <Adapter>
+      <VCard />
+    </Adapter>
+  </Adapter>
+</pages__StyledLayout>
+`;

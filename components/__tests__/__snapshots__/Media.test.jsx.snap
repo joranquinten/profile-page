@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Media /> should render without crashing 1`] = `
+<Media__StyledMedia>
+  <Card
+    title="Media"
+  >
+    <p
+      key="0"
+    >
+      mediaDescription
+    </p>
+    <Tag
+      closable={false}
+      color="gold"
+      key="mediaName1"
+    >
+      mediaName1
+    </Tag>
+    <Tag
+      closable={false}
+      color="gold"
+      key="mediaName2"
+    >
+      mediaName2
+    </Tag>
+    <Tag
+      closable={false}
+      color="purple"
+      key="mediaName3"
+    >
+      mediaName3
+    </Tag>
+    <Tag
+      closable={false}
+      color="volcano"
+      key="mediaName4"
+    >
+      mediaName4
+    </Tag>
+  </Card>
+</Media__StyledMedia>
+`;

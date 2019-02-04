@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Werkervaring /> should render without crashing 1`] = `
+<Werkervaring__StyledTimeline>
+  <Timeline
+    mode=""
+    reverse={false}
+  >
+    <TimelineItem
+      color="#54D17E"
+      key="Employer one"
+      pending={false}
+    >
+      <Card
+        title="Employer one"
+      >
+        2018-01-01 - heden
+        <br />
+        <p
+          key="0"
+        >
+          Employer one description
+        </p>
+      </Card>
+    </TimelineItem>
+    <TimelineItem
+      color="#54D17E"
+      key="Employer two"
+      pending={false}
+    >
+      <Card
+        title="Employer two"
+      >
+        2017-01-01 - 2018-12-31
+        <br />
+        <p
+          key="0"
+        >
+          Employer two description
+        </p>
+      </Card>
+    </TimelineItem>
+  </Timeline>
+</Werkervaring__StyledTimeline>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Opleiding /> should render without crashing 1`] = `
+<Opleiding__StyledOpleiding>
+  <Card
+    title="educationTitle"
+  >
+    <Table
+      bordered={false}
+      className="ant-table-override"
+      columns={
+        Array [
+          Object {
+            "dataIndex": "date",
+            "key": "date",
+            "title": "Wanneer",
+          },
+          Object {
+            "dataIndex": "description",
+            "key": "description",
+            "title": "Opleiding of certificaat",
+          },
+        ]
+      }
+      dataSource={
+        Array [
+          Object {
+            "date": "January 2018",
+            "description": "educationFirstDescription",
+            "key": "1",
+          },
+          Object {
+            "date": "February 2018",
+            "description": "educationSecondDescription",
+            "key": "2",
+          },
+        ]
+      }
+      indentSize={20}
+      loading={false}
+      locale={Object {}}
+      pagination={false}
+      rowKey="key"
+      showHeader={false}
+      size="small"
+      sortDirections={
+        Array [
+          "ascend",
+          "descend",
+        ]
+      }
+      useFixedHeader={false}
+    />
+  </Card>
+</Opleiding__StyledOpleiding>
+`;

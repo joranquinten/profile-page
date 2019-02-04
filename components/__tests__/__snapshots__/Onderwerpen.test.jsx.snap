@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Onderwerpen /> should render without crashing 1`] = `
+<Onderwerpen__StyledOnderwerpen>
+  <Card
+    title="Onderwerpen"
+  >
+    <p
+      key="0"
+    >
+      topicsDescription
+    </p>
+    <Tag
+      closable={false}
+      color="volcano"
+      key="topicName1"
+    >
+      topicName1
+    </Tag>
+    <Tag
+      closable={false}
+      color="volcano"
+      key="topicName2"
+    >
+      topicName2
+    </Tag>
+    <Tag
+      closable={false}
+      color="gold"
+      key="topicName3"
+    >
+      topicName3
+    </Tag>
+    <Tag
+      closable={false}
+      color="purple"
+      key="topicName4"
+    >
+      topicName4
+    </Tag>
+    <Tag
+      closable={false}
+      color="blue"
+      key="topicName5"
+    >
+      topicName5
+    </Tag>
+    <Tag
+      closable={false}
+      color="cyan"
+      key="topicName6"
+    >
+      topicName6
+    </Tag>
+    <Tag
+      closable={false}
+      color="geekblue"
+      key="topicName7"
+    >
+      topicName7
+    </Tag>
+  </Card>
+</Onderwerpen__StyledOnderwerpen>
+`;

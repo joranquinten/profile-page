@@ -11,7 +11,7 @@ const Meta = () => (
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href="/static/favicon.png" />
       <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
-      <meta name="google-site-verification" content="EoeZL12w_gHbFWtdzg5epAsq7CWkW48PddYX3Wir9gc" />
+      <meta name="google-site-verification" content={meta['google-site-verification']} />
       <title>{meta.title}</title>
       <meta name="description" content={meta.description} />
 

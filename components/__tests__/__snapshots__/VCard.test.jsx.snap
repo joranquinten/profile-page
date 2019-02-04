@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VCard /> should render without crashing 1`] = `
+<VCard__StyledVCard
+  className="vcard"
+  id="hcard-Joran-Quinten"
+>
+  <Row
+    gutter={16}
+  >
+    <Col
+      span={8}
+    >
+      <VCard__Iconic>
+        <Icon
+          icon="coffee"
+        />
+        <span
+          key="0"
+        >
+          footerDescription
+        </span>
+      </VCard__Iconic>
+    </Col>
+    <Col
+      span={8}
+    >
+      <VCard__Iconic>
+        <Icon
+          icon="guy"
+        />
+        <div>
+          <a
+            className="url fn"
+            href="contactPersonalUrl"
+          >
+            contactFullName
+          </a>
+          <br />
+          <a
+            className="url org"
+            href="contactOrganisationUrl"
+          >
+            contactOrganisation
+          </a>
+          <br />
+          <a
+            className="email"
+            href="mailto:contactEmail"
+          >
+            contactEmail
+          </a>
+          <br />
+          <span
+            className="tel"
+          >
+            contactPhone
+          </span>
+        </div>
+      </VCard__Iconic>
+    </Col>
+    <Col
+      span={8}
+    >
+      <VCard__Iconic>
+        <Icon
+          icon="paperPlane"
+        />
+        <span
+          className="adr"
+        >
+          <span
+            className="street-address"
+          >
+            contactStreet
+          </span>
+          <br />
+          <span
+            className="postal-code"
+          >
+            contactZipcode
+          </span>
+          <br />
+          <span
+            className="locality"
+          >
+            contactCity
+          </span>
+        </span>
+      </VCard__Iconic>
+    </Col>
+  </Row>
+</VCard__StyledVCard>
+`;

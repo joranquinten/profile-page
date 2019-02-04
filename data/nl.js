@@ -2,6 +2,7 @@ const meta = {
   title: 'Joran Quinten - Agile Interaction Developer',
   description:
     'Met meer dan 10 jaar ervaring in het ontwikkelen van web oplossingen binnen verschillende rollen, heb ik een brede achtergrond in web ontwikkeling. Daardoor begrijp ik de behoeften van de verschillende stakeholders, van ontwikkelaar tot eindgebruiker. Mijn vermogen om onderliggende problemen naar boven te halen maken me geschikt voor het maken van grondige analyses. De kennis die ik heb opgedaan in het bouwen van toepassingen gebruik ik voor toepasbare, praktische aanbevelingen.',
+  'google-site-verification': '',
 };
 
 const about = {

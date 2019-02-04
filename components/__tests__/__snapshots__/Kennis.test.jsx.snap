@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Kennis /> should render without crashing 1`] = `
+<Kennis__StyledKennis>
+  <Opleiding />
+  <Onderwerpen />
+  <Media />
+</Kennis__StyledKennis>
+`;
