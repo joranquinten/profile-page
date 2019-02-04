@@ -10,4 +10,7 @@ module.exports = withCSS({
     });
     return config;
   },
+  exportPathMap(defaultPathMap) {
+    return { '/': { page: '/index' } };
+  },
 });
