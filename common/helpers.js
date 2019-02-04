@@ -3,7 +3,7 @@ const sorterByProperty = (property, type) => (a, b) => {
 
   const getValue = item => {
     const value = item[property] || fallback;
-    return !isNaN(parseFloat(value)) && isFinite(value) ? value : value.toLowerCase(); // esline-disable-line no-restricted-globals
+    return !isNaN(parseFloat(value)) && isFinite(value) ? value : value.toLowerCase(); // eslint-disable-line no-restricted-globals
   };
 
   if (getValue(a) < getValue(b)) {
