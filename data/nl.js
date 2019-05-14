@@ -18,6 +18,11 @@ const about = {
 
 const projects = [
   {
+    title: 'Jumbo campaigns',
+    description:
+      "<p>Jaarlijks voert Jumbo verschillende (soorten) campagnes, die in eigen beheer worden opgezet en gepubliceerd. Om de verschillende pagina's en flows te kunnen ondersteunen, bouwt het team aan een platform, met als doel binnen één dag een nieuwe campagne te kunnen lanceren, zonder dat daar technische ondersteuning voor nodig is. De content van de campagnes wordt beheerd in Adobe Experience Manager. Voor het beheren van formulieren en flows is een eigen platform -CloudAdmin- ontwikkeld. De pagina's worden opgebouwd uit Vue componenten, met aandacht voor SEO en accessibility.</p>",
+  },
+  {
     title: 'BAAS: Take control of your campaign',
     description:
       '<p>Het softwaresysteem BAAS heeft meerdere rollen, maar de belangrijkste is tonen van marketing data uit verschillende bronnen en overzichtelijk presenteren aan de gebruiker in de vorm van dashboards.</p><p>Hiervoor worden iedere nacht meer dan 15 verschillende databronnen aangesproken met honderden verschillende meetgegevens. Deze worden met behulp van een pipeline geïmporteerd en genormaliseerd, zodat de gegevens uit verschillende databronnen vergeleken kunnen worden over een bepaalde eenheid. Deze tool bevat de belangrijkste data binnen de organisatie en wordt door vrijwel alle medewerkers dagelijks geraadpleegd.</p><p>Het team bestaat uit specialisten op gebied van backend of frontend en ontwikkelt nieuwe features in een Kanban werkwijze. Hierbij beschikken we over veel autonomie om de beste oplossingen voor de technische uitdagingen te kunnen implementeren.</p>',
@@ -56,9 +61,16 @@ const projects = [
 
 const experience = [
   {
+    name: 'Jumbo',
+    van: '2019-04-01',
+    tot: null,
+    description:
+      "<p>Binnen de Jumbo Tech Campus (JTC) ben ik als senior frontend ontwikkelaar werkzaam voor het Jumbo Content Team. Binnen het Jumbo Content Team wordt het platform ontwikkeld waarmee de online promoties en campagnes op een laagdrempelige manier kunnen worden gepubliceerd. Mijn taak is het ontwikkelen van componenten die worden geïntegreerd in het configuratieplatform of in de campagnepagina's zelf.</p><p>Ik ben als één van de 'curators' betrokken bij de ontwikkeling en beheer van de <em>component library</em>. Deze library is een verzameling aan componenten die binnen het JTC door alle teams worden gebruikt, waardoor een uniforme customer experience wordt geborgd.</p>",
+  },
+  {
     name: 'Greenhouse Group',
     van: '2017-11-01',
-    tot: null,
+    tot: '2019-03-31',
     description:
       '<p>Als senior frontend ontwikkelaar ben ik verantwoordelijk voor de ontwikkeling van het dashboard voor een rapportage tool (BAAS). Deze tool wordt door marketeers van Greenhouse Group gebruikt om alle campagne data in één oogopslag te kunnen beoordelen en waar nodig bijsturen. Als UX designer werk ik aan het ontwerpen van verbeteringen op dit systeem.<p><p>Daarnaast ben ik als coach betrokken bij Greenhouse Group Labs, een afdeling waar met de nieuwste technieken geëxperimenteerd wordt, met oog op praktische toepassingen.</p>',
   },
@@ -185,9 +197,9 @@ const contact = {
   email: 'joran@joranquinten.nl',
   phone: '0611047809',
   address: {
-    street: 'Tolstraat 14',
-    zipcode: '5469 AZ',
-    city: 'Erp',
+    street: 'Evertshoeve 13',
+    zipcode: '546# LP',
+    city: 'Veghel',
   },
 };
 
