@@ -138,6 +138,7 @@ const topics = {
     { name: 'Bootstrap', level: 'good', type: 'frameworks' },
     { name: 'Ant Design', level: 'normal', type: 'frameworks' },
     { name: 'ReactJs', level: 'good', type: 'frameworks' },
+    { name: 'VueJS', level: 'good', type: 'frameworks' },
     { name: 'AngularJs (1.x)', level: 'good', type: 'frameworks' },
     { name: 'JavaScript', level: 'good', type: 'languages' },
     { name: 'ES6', level: 'good', type: 'languages' },
