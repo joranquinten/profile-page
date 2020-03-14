@@ -43,7 +43,7 @@
     "styled-components": "^4.1.2"
   },
   "devDependencies": {
-    "acorn": "^6.0.4",
+    "acorn": "^6.4.1",
     "babel-plugin-styled-components": "^1.9.2",
     "babel7-jest": "^1.0.1",
     "enzyme": "^3.7.0",
