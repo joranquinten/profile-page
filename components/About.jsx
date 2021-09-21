@@ -69,20 +69,6 @@ const StyledAbout = styled.div`
     }
   }
 
-  .availability {
-    position: absolute;
-    right: -260px;
-    top: 20px;
-    background: #fff;
-    border-radius: 5px;
-    max-width: 300px;
-    padding: 1em;
-    color: ${colors.black};
-    font-size: 0.74em;
-    box-shadow: 0px 6px 15px -5px rgba(0, 0, 0, 0.75);
-    transform: rotate(-0.05turn);
-  }
-
   blockquote {
     flex-grow: 4;
     position: relative;
@@ -131,7 +117,6 @@ const About = () => (
         ))}
       </ul>
     )}
-    {about.availability && <div className="availability">{renderHTML(about.availability)}</div>}
     {about.bio && <div className="bio">{renderHTML(about.bio)}</div>}
     {about.quote && <blockquote>{renderHTML(about.quote)}</blockquote>}
     {about.picture && (
